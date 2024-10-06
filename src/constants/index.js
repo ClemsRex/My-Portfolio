@@ -49,11 +49,11 @@ export const PROJECTS = [
     image: project3,
     description:
       "A simple Figma Free Lancing Webiste used in practing my skills",
-    technologies: ["HTML", "Tailwind CSS", "React"],
+    technologies: ["Tailwind CSS", "React"],
     gitbtn: "Github",
     demobtn: "LiveDemo",
     giturl: "https://github.com/ClemsRex/Figma-Land",
-    demourl: "https://clemsrex.github.io/Figma-Land/",
+    demourl: "https://figma-land-vert.vercel.app/",
   },
   
 ];
