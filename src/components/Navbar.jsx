@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -12,6 +13,7 @@ const Navbar = () => {
         <div className="text-white m-8 flex items-center justify-center gap-4 text-2xl cursor-pointer">
             <a href="https://www.linkedin.com/in/clement-chukwu-b41950280/"><FaLinkedin /></a>
             <a href="https://github.com/ClemsRex"><FaGithub /></a>
+            <a href="https://x.com/Clemsrex?t=txF2DB5G6YyvOF3zxy11Rg&s=09"><FaTwitter /></a>
         </div>
       </nav>
     </>
