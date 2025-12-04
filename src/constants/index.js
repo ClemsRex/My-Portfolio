@@ -1,20 +1,21 @@
 import project1 from '../assets/projects/project1.jpg'
 import project2 from '../assets/projects/project2.jpg'
 import project3 from '../assets/projects/project3.jpg'
+import project4 from '../assets/projects/project4.png'
 
 
 
 
-export const HERO_CONTENT = `I have developed frontend development skills through 4 months of dedicated training, mastering technologies like React, JavaScript, HTML, and CSS. I am currently in my 5th year of studying computer engineering at Enugu State University, combining my academic knowledge with practical skills in web development. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I have developed frontend development skills through 4 months of dedicated training and 2 years of practice, mastering technologies like React, JavaScript, HTML, and CSS. I am a Graduate of Computer Engineering at Enugu State University, combining my B.Eng Certificate with practical skills in web development. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly web applications. With 4 months of experience, I have worked with a hand full of technologies, including React, JS, HTML and CSS. My journey in web development began with a deep curiosity for how things work, and it is evolving and growing into a career where I will continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly web applications. With 2 years of experience, I have worked with a hand full of technologies, including React, JS, HTML and CSS. My journey in web development began with a deep curiosity for how things work and it is evolving and growing into a career where I will continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying reading as it helps sharpens my brain, exploring new technologies and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2020 - Present",
+    year: "2020 - 2025",
     role: "Frontend Developer",
     company: "ESUT",
-    description: `Under-Grad in Computer Engineering`,
+    description: `B.Eng in Computer Engineering`,
     technologies: ["Javascript", "React.js", "HTML", "CSS"],
   },
   
@@ -54,6 +55,17 @@ export const PROJECTS = [
     demobtn: "LiveDemo",
     giturl: "https://github.com/ClemsRex/Figma-Land",
     demourl: "https://figma-land-vert.vercel.app/",
+  },
+  {
+    title: "Real Estate Website",
+    image: project4,
+    description:
+      "A Functional and Animated Real Estate Site",
+    technologies: ["Tailwind CSS", "React"],
+    gitbtn: "Github",
+    demobtn: "LiveDemo",
+    giturl: "https://github.com/ClemsRex/Arpad-Estate",
+    demourl: "https://arpad-estate.vercel.app/",
   },
   
 ];
